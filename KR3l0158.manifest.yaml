@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3l0158/v1
+canonical_location: https://kanripo.org/bkk/KR3l0158/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 小說
+  identifiers:
+    krp: KR3l0158
+  tags:
+    kr-categories: KR3l
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0158.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0158_001.yaml, hash: 'sha256:8e0b6e4caa5c153f732e5eee94328b810e10beec1faab307b26f7d8e0244c9ff'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0158_001.markers.yaml, hash: 'sha256:fcb63ca1ca8d73a1f06d2843f4519608830e7e179a55f4a7dbcc37bd6d78f920'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3l0158_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 12100
+  label: 小說
+  type: section
+  level: 1
+hash: sha256:ddc6bc2813bc7cacfdd5381e525010a115224f255db656a40c321a175d27327c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
